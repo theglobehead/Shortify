@@ -1,0 +1,42 @@
+.info-form{
+    width: 86%;
+    margin: 0 auto 0 auto;
+}
+
+.info-form #full-url{
+    width: 100%;
+}
+
+.bottom-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-form input{
+    width: 60%;
+}
+
+.bottom-form .buttons{
+    width: 30%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5%;
+}
+
+@media screen and (max-width: 100vh){
+    .bottom-form{
+        gap: 2vh;
+        flex-direction: column;
+    }
+
+    .bottom-form input{
+        width: 100%;
+    }
+    
+    .bottom-form .buttons{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5%;
+    }
+}

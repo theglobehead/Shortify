@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
 import Header from './components/Header';
+import InfoForm from './components/InfoForm';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <InfoForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
